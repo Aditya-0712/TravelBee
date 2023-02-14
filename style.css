@@ -63,7 +63,7 @@ body
 
 .hamopen 
 {
-    transform:translateX(200px);
+    transform:translateX(250px);
     transition: 0.5s;
 }
 
@@ -82,5 +82,33 @@ body
 .hamopen .div3
 {
     transform: translateY(-11px) rotate(-45deg);
+    transition: 0.5s;
+}
+
+.acc 
+{
+    display:flex;
+    margin:auto 10px auto auto;
+    width:35px;
+    height:auto;
+}
+
+.sidebar , .sidebaropen
+{
+    display:block;
+    width:0px;
+    height:100%;
+    background-color: #E8E8E8;
+    position: fixed;
+    z-index: 2;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.sidebaropen
+{
+    width:250px;
     transition: 0.5s;
 }
