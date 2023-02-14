@@ -1,0 +1,59 @@
+body
+{
+    width:100%;
+    height:900px;
+    margin:0;
+    font-size:0px;
+    background-color:white;
+}
+
+.topbar
+{
+    display:flex;
+    margin:0;
+    width:100%;
+    height:auto;
+    background-color:#635985;
+    position:fixed;
+    z-index:1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.topbar p 
+{
+    display:flex;
+    margin:auto;
+    width:auto;
+    height:auto;
+    font-size:40px;
+    font-family:heart;
+    color:white;
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px rgb(183, 0, 255),
+      0 0 80px rgb(183, 0, 255),
+      0 0 90px rgb(183, 0, 255),
+      0 0 100px rgb(183, 0, 255),
+      0 0 150px rgb(183, 0, 255);
+}
+
+.ham 
+{
+    display:block;
+    margin:auto auto auto 10px;
+    width:45px;
+    height:auto;
+    cursor:pointer
+}
+
+.ham .div1 , .ham .div2 , .ham .div3
+{
+    display:block;
+    margin:5px auto 5px auto;
+    width:35px;
+    height:6px;
+    border-radius:50px;
+    background-color: #472183;
+}
