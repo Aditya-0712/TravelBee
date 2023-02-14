@@ -39,16 +39,18 @@ body
       0 0 150px rgb(183, 0, 255);
 }
 
-.ham 
+.ham , .hamopen
 {
     display:block;
     margin:auto auto auto 10px;
     width:45px;
     height:auto;
-    cursor:pointer
+    cursor:pointer;
+    overflow:hidden;
+    transition: 0.5s;
 }
 
-.ham .div1 , .ham .div2 , .ham .div3
+.ham .div1 , .ham .div2 , .ham .div3 , .hamopen .div1 , .hamopen .div2 , .hamopen .div3
 {
     display:block;
     margin:5px auto 5px auto;
@@ -56,4 +58,29 @@ body
     height:6px;
     border-radius:50px;
     background-color: #472183;
+    transition: 0.5s;
+}
+
+.hamopen 
+{
+    transform:translateX(200px);
+    transition: 0.5s;
+}
+
+.hamopen .div2
+{
+    transform: translateX(-60px);
+    transition: 0.5s;
+}
+
+.hamopen .div1 
+{
+    transform: translateY(11px) rotate(45deg);
+    transition: 0.5s;
+}
+
+.hamopen .div3
+{
+    transform: translateY(-11px) rotate(-45deg);
+    transition: 0.5s;
 }
