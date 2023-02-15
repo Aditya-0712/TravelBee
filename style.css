@@ -125,3 +125,19 @@ body
     color:black;
     text-align: center;
 }
+
+.plane 
+{
+    display:flex;
+    width:30px;
+    height:auto;
+    margin:0px auto 0px auto;
+    animation:loop 2s linear infinite;
+    position: relative;
+    right:100px;
+}
+
+@keyframes loop
+{
+    100%{transform: translateX(200px) translateY(-30px) rotate(-30deg);}
+}
