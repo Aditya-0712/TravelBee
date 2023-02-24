@@ -13,7 +13,7 @@ body
     margin:0;
     width:100%;
     height:auto;
-    background-color:#635985;
+    background-color:#060047;
     position:fixed;
     z-index:1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -32,11 +32,11 @@ body
       0 0 4px #fff,
       0 0 11px #fff,
       0 0 19px #fff,
-      0 0 40px rgb(183, 0, 255),
-      0 0 80px rgb(183, 0, 255),
-      0 0 90px rgb(183, 0, 255),
-      0 0 100px rgb(183, 0, 255),
-      0 0 150px rgb(183, 0, 255);
+      0 0 40px #865DFF,
+      0 0 80px #865DFF,
+      0 0 90px #865DFF,
+      0 0 100px #865DFF,
+      0 0 150px #865DFF;
 }
 
 .ham , .hamopen
@@ -55,9 +55,10 @@ body
     display:block;
     margin:5px auto 5px auto;
     width:35px;
-    height:6px;
+    height:5px;
+    border:1px solid white;
     border-radius:50px;
-    background-color: black;
+    background-color: #865DFF;
     transition: 0.5s;
 }
 
@@ -90,7 +91,7 @@ body
     display:flex;
     margin:auto 10px auto auto;
     width:35px;
-    height:auto;
+    height:42px;
 }
 
 .sidebar , .sidebaropen
@@ -112,44 +113,4 @@ body
 {
     width:250px;
     transition: 0.5s;
-}
-
-.welcome 
-{
-    display:block;
-    width:auto;
-    height:40px;
-    padding-top:130px;
-    margin:0px auto 0px auto;
-}
-
-.indpack
-{
-    display:block;
-    width:100%;
-    height:auto;
-    font-size:50px;
-    font-family:heart;
-    color:tomato;
-    text-align: center;
-    padding-top: 140px;
-    margin:0px 0px 0px 0px;
-
-    --x-offset: -0.0625em;
-    --y-offset: 0.0625em;
-    --stroke: 0.025em;
-    --background-color: white;
-    --stroke-color: lightblue;
-
-    text-shadow: 
-    
-    var(--x-offset)
-    var(--y-offset)
-    0px
-    var(--background-color), 
-    
-    calc( var(--x-offset) - var(--stroke) )
-    calc( var(--y-offset) + var(--stroke) )
-    0px
-    var(--stroke-color);
 }
