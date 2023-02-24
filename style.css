@@ -1,7 +1,7 @@
 body
 {
     width:100%;
-    height:900px;
+    height:1000px;
     margin:0;
     font-size:0px;
     background-color:white;
@@ -113,4 +113,46 @@ body
 {
     width:250px;
     transition: 0.5s;
+}
+
+.part1
+{
+    display:block;
+    margin:0;
+    width:100%;
+    height:auto;
+    background-color:#6C00FF;
+    padding-top: 60.667px;
+}
+
+.ind 
+{
+    display:block;
+    width: 100%;
+    height:auto;
+    margin:0;
+}
+
+.head1 
+{
+    display:flex;
+    width:auto;
+    height:auto;
+    margin:30px auto 0px 30px;
+    font-size:30px;
+    font-family:Oliver;
+    color:white;
+    text-shadow: 4px 3px 0px black, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+.desc1
+{
+    display:flex;
+    width:auto;
+    height:auto;
+    margin:10px auto 0px 40px;
+    font-size:20px;
+    font-family:Oliver;
+    color:rgba(0, 0, 0, 0.5);
+    /* text-shadow: 4px 3px 0px black, 9px 8px 0px rgba(0,0,0,0.15); */
 }
