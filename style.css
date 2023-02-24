@@ -240,7 +240,7 @@ body
     height:auto;
     font-size:20px;
     font-family:sans-serif;
-    color:rgba(0, 0, 0, 0.5);
+    color:white;
     text-align:center;
     margin:auto;
 }
@@ -260,4 +260,12 @@ body
     height:600px;
     margin:0;
     background-color: #B1B2FF;
+}
+
+.wonders
+{
+    display:block;
+    width:100%;
+    height:auto;
+    margin:0;
 }
