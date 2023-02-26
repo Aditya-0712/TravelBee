@@ -262,10 +262,50 @@ body
     background-color: #B1B2FF;
 }
 
-.wonders
+.slideshow 
 {
     display:block;
     width:100%;
     height:auto;
     margin:0;
+}
+
+.navs 
+{
+    display:flex;
+    width:100%;
+    height:auto;
+    margin:0;
+    position: relative;
+    top:50px;
+}
+
+.left , .right
+{
+    display:flex;
+    width:30px;
+    height:auto;
+    margin:auto auto auto 5px;
+    cursor:pointer;
+    z-index:1;
+}
+
+.right
+{
+    margin:auto 5px auto auto;
+}
+
+.left 
+{
+    transform: rotate(180deg);
+}
+
+.myslide
+{
+    display:block;
+    width:100%;
+    height:auto;
+    margin:0;
+    position: relative;
+    bottom:40px;
 }
